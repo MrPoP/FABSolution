@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C8A3AA69-9E88-418F-A29C-798BFA549785}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoreProcess</RootNamespace>
+    <AssemblyName>CoreProcess</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activity\RecieptActivity.cs" />
+    <Compile Include="Activity\UnitConverterActivity.cs" />
+    <Compile Include="Collection\AreaCollection.cs" />
+    <Compile Include="Collection\ChainCollection.cs" />
+    <Compile Include="Collection\CustomerCollection.cs" />
+    <Compile Include="Collection\DepartmentCollection.cs" />
+    <Compile Include="Collection\DepartmentReportCollection.cs" />
+    <Compile Include="Collection\DrawerCollection.cs" />
+    <Compile Include="Collection\DrawersReportCollection.cs" />
+    <Compile Include="Collection\EmployeeCollection.cs" />
+    <Compile Include="Collection\EmployeeReportCollection.cs" />
+    <Compile Include="Collection\InventoryReportCollection.cs" />
+    <Compile Include="Collection\PeriodShifts.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Exceptions\StockItemNotExistedException.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\LogFlag.cs" />
+    <Compile Include="Logging\Logger.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReciptCollector.cs" />
+    <Compile Include="Reports\ChequeReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChequeReport.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DrawerReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DrawerReport.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Eployee.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Eployee.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ProductSales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Shift.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shift.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Structure\Area.cs" />
+    <Compile Include="Structure\AreaReport.cs" />
+    <Compile Include="Structure\Bill.cs" />
+    <Compile Include="Structure\CashDrawer.cs" />
+    <Compile Include="Structure\Chain.cs" />
+    <Compile Include="Structure\ChainReport.cs" />
+    <Compile Include="Structure\Cheque.cs" />
+    <Compile Include="Structure\ContactDetails.cs" />
+    <Compile Include="Structure\CountReport.cs" />
+    <Compile Include="Structure\Currency.cs" />
+    <Compile Include="Structure\Customer.cs" />
+    <Compile Include="Structure\CustomerReport.cs" />
+    <Compile Include="Structure\Department.cs" />
+    <Compile Include="Structure\DepartmentReport.cs" />
+    <Compile Include="Structure\DrawerReport.cs" />
+    <Compile Include="Structure\Employee.cs" />
+    <Compile Include="Structure\OperateLog.cs" />
+    <Compile Include="Structure\Performance.cs" />
+    <Compile Include="Structure\EmployeeReport.cs" />
+    <Compile Include="Structure\Inventory.cs" />
+    <Compile Include="Structure\PerformanceReport.cs" />
+    <Compile Include="Structure\Product.cs" />
+    <Compile Include="Structure\RawItem.cs" />
+    <Compile Include="Structure\Restaurant.cs" />
+    <Compile Include="Structure\RestaurantReport.cs" />
+    <Compile Include="Structure\Shift.cs" />
+    <Compile Include="Structure\ShiftReport.cs" />
+    <Compile Include="Structure\Transference.cs" />
+    <Compile Include="Timer.cs" />
+    <Compile Include="UnitConverter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customer.dgml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Diagrams\CollectionDiagram.cd" />
+    <None Include="Diagrams\ReportDiagram.cd" />
+    <None Include="Diagrams\StructrueDiagram.cd" />
+    <None Include="Reports\ChequeReport.tt">
+      <Generator>TextTemplatingFilePreprocessor</Generator>
+      <LastGenOutput>ChequeReport.cs</LastGenOutput>
+    </None>
+    <None Include="Reports\DrawerReport.tt">
+      <Generator>TextTemplatingFilePreprocessor</Generator>
+      <LastGenOutput>DrawerReport.cs</LastGenOutput>
+    </None>
+    <None Include="Reports\Eployee.tt">
+      <Generator>TextTemplatingFilePreprocessor</Generator>
+      <LastGenOutput>Eployee.cs</LastGenOutput>
+    </None>
+    <None Include="Reports\ProductSales.tt">
+      <Generator>TextTemplatingFilePreprocessor</Generator>
+      <LastGenOutput>ProductSales.cs</LastGenOutput>
+    </None>
+    <None Include="Reports\Shift.tt">
+      <Generator>TextTemplatingFilePreprocessor</Generator>
+      <LastGenOutput>Shift.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Activity\Recieve\" />
+    <Folder Include="Activity\Send\" />
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

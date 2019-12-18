@@ -1,0 +1,5 @@
+D:\Project\FABSolution\CoreThreading\bin\Debug\CoreThreading.dll
+D:\Project\FABSolution\CoreThreading\bin\Debug\CoreThreading.pdb
+D:\Project\FABSolution\CoreThreading\obj\Debug\CoreThreading.dll
+D:\Project\FABSolution\CoreThreading\obj\Debug\CoreThreading.pdb
+D:\Project\FABSolution\CoreThreading\obj\Debug\CoreThreading.csprojResolveAssemblyReference.cache

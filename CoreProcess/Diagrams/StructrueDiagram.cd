@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CoreProcess.Structure.Area" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIIAAEBAAIAAgAAIIAoCAAAAAAAQAAAIEAAAAGAAAoA=</HashCode>
+      <FileName>Structure\Area.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.CashDrawer" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAwxACCUAEBErLAAAICIIgCCAAAEBIoIMEoAUBCAKwA=</HashCode>
+      <FileName>Structure\CashDrawer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.Chain" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEABgAIQAgAAIAAgGCBAAEAgAAEAAAAAAACAAAgA=</HashCode>
+      <FileName>Structure\Chain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.Cheque" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AA0BAAAEAAAAiAAQAEAIRAAAQAABYAgAAQAAEAAAKgA=</HashCode>
+      <FileName>Structure\Cheque.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.CountReport" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBgCAAAECAmAAAAIgIAAQgAAAAAAAAAAEAACAACwA=</HashCode>
+      <FileName>Structure\CountReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.CountReportItem" Collapsed="true">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACgAAAQAAgEAAAIIgAAAQIAAAEAQABAAAAAAChABA=</HashCode>
+      <FileName>Structure\CountReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.Customer" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIAAEAAAgAAIAAACAAYAAgAFAAIAEAACAAAAAgA=</HashCode>
+      <FileName>Structure\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.Department" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAsAAAGBAAACiIAACoAAAACAAAAAABACAAIAAAAAAgA=</HashCode>
+      <FileName>Structure\Department.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.Employee" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIAgBACMAAgAoIAIACAAQgAAAEAAAAAgBAwgAAAwA=</HashCode>
+      <FileName>Structure\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.ICurrency" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAACAAAACgAAAAAAI=</HashCode>
+      <FileName>Structure\Currency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.Inventory" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAhAAAAACAAAAAABAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structure\Inventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.Performance" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gYAAARCAAEAgAJxAAIAADAAAAAAIIQACAEAwACACQAQ=</HashCode>
+      <FileName>Structure\Performance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.Product" Collapsed="true">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAgAAAIAAAASAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structure\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.RawItem" Collapsed="true">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAABAAAgAAAAIICAAgQAgCAEAIAAAAAgAAAAAAA=</HashCode>
+      <FileName>Structure\RawItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.Restaurant" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAAEAAAQAAgQAIADALAAAgCQAAIAAKIQAIAmIAAgE=</HashCode>
+      <FileName>Structure\Restaurant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.Shift" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAABEAAAIJAQACAAAAAABCBAAEQgDQAAAA=</HashCode>
+      <FileName>Structure\Shift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreProcess.Structure.Transference" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAARIQEAAAiAABAICAAAGAgAABAAAAAwAAAAEAQgA=</HashCode>
+      <FileName>Structure\Transference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CoreProcess.Structure.AreaReport" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAgAAAAAICAAAAAAAQAEAIAAAAAEAAAYA=</HashCode>
+      <FileName>Structure\AreaReport.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoreProcess.Structure.Bill" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAiAAAAAAIIEAAAAAAAEAAAAAAAAAAAQA=</HashCode>
+      <FileName>Structure\Bill.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoreProcess.Structure.ChainReport" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAgAgAAAAAICABAAEAgAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structure\ChainReport.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoreProcess.Structure.ContactDetails" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAABCAAAAAAAIAAAAAAAAEACAAAABAACAAA=</HashCode>
+      <FileName>Structure\ContactDetails.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoreProcess.Structure.CustomerReport" Collapsed="true">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAgAAAAAICAAQAAAAAAEIAEAAAAAAAAAA=</HashCode>
+      <FileName>Structure\CustomerReport.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoreProcess.Structure.DepartmentReport" Collapsed="true">
+    <Position X="11" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACAAAAAiAAAAAIAAACAAAAIAEACAAAAAAAAAQA=</HashCode>
+      <FileName>Structure\DepartmentReport.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoreProcess.Structure.DrawerReport" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAwAAAUAAAAiKAAAAIIAACAAAAABMgIEAgAQAAAAQA=</HashCode>
+      <FileName>Structure\DrawerReport.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoreProcess.Structure.EmployeeReport" Collapsed="true">
+    <Position X="12.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACgAAAAAAgAAAAAICAAQAAAAAIEAAAgBAAAAAAUA=</HashCode>
+      <FileName>Structure\EmployeeReport.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoreProcess.Structure.HealthCertificate" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAgAAAAAIAAAAAAAAIAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structure\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoreProcess.Structure.OperateLog" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAMAAAAAAAAAAAIIAAAAAAAAEAAAAAIAAAAAQA=</HashCode>
+      <FileName>Structure\OperateLog.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoreProcess.Structure.PerformanceReport" Collapsed="true">
+    <Position X="14.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABEAAIAAAABAAAAQEAAAAAAAAAAEAA=</HashCode>
+      <FileName>Structure\PerformanceReport.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoreProcess.Structure.RestaurantReport" Collapsed="true">
+    <Position X="18" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAgAAAAGICAAAACAAAAEAAIQAIAkIAAQE=</HashCode>
+      <FileName>Structure\RestaurantReport.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoreProcess.Structure.ShiftReport" Collapsed="true">
+    <Position X="16.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAABEIQIAAACBAAAAQEABACAAAAAAEEA=</HashCode>
+      <FileName>Structure\ShiftReport.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

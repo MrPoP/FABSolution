@@ -1,0 +1,10 @@
+C:\Users\POP\documents\visual studio 2010\Projects\FABSolution\CoreProcess\bin\Debug\CoreProcess.dll
+C:\Users\POP\documents\visual studio 2010\Projects\FABSolution\CoreProcess\bin\Debug\CoreProcess.pdb
+C:\Users\POP\documents\visual studio 2010\Projects\FABSolution\CoreProcess\obj\Debug\CoreProcess.dll
+C:\Users\POP\documents\visual studio 2010\Projects\FABSolution\CoreProcess\obj\Debug\CoreProcess.pdb
+C:\Users\POP\Documents\Visual Studio 2010\Projects\FABSolution\CoreProcess\obj\Debug\CoreProcess.csprojResolveAssemblyReference.cache
+D:\Project\FABSolution\CoreProcess\bin\Debug\CoreProcess.dll
+D:\Project\FABSolution\CoreProcess\bin\Debug\CoreProcess.pdb
+D:\Project\FABSolution\CoreProcess\obj\Debug\CoreProcess.csprojResolveAssemblyReference.cache
+D:\Project\FABSolution\CoreProcess\obj\Debug\CoreProcess.dll
+D:\Project\FABSolution\CoreProcess\obj\Debug\CoreProcess.pdb

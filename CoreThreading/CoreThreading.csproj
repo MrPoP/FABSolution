@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F06740B6-D7BF-4EFD-BDBA-0E5399A0BF53}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoreThreading</RootNamespace>
+    <AssemblyName>CoreThreading</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttributeInvoker\Resolver.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Collections\Generic\AttributeInvocationMapper.cs" />
+    <Compile Include="Collections\Generic\Bag.cs" />
+    <Compile Include="Collections\Generic\IBag.cs" />
+    <Compile Include="Collections\Generic\SafeList.cs" />
+    <Compile Include="Collections\Generic\StackQueue.cs" />
+    <Compile Include="Collections\Generic\SafeDictionary.cs" />
+    <Compile Include="CustomCon\ClipBoard\ClipBoardCon.cs" />
+    <Compile Include="CustomCon\ClipBoard\ClipBoardConEventArgs.cs" />
+    <Compile Include="CustomCon\ClipBoard\ClipBoardConHelpers.cs" />
+    <Compile Include="CustomCon\ConsoleConfig.cs" />
+    <Compile Include="CustomCon\CustomConHandle.cs" />
+    <Compile Include="CustomCon\CustomConHandlers.cs" />
+    <Compile Include="CustomCon\CustomConsole.cs" />
+    <Compile Include="Collections\Concurrent\CustomContainer.cs" />
+    <Compile Include="CustomCon\CustomConsoleHerlpers.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="CustomCon\CustomConsoleKeyPressedEventArgs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AttributeInvoker\Method.cs" />
+    <Compile Include="AttributeInvoker\Property.cs" />
+    <Compile Include="Threading\Events.cs" />
+    <Compile Include="Threading\Generic\GenericEvents.cs" />
+    <Compile Include="Threading\PerlaExceptionHolder.cs" />
+    <Compile Include="Threading\PerlaItem.cs" />
+    <Compile Include="Threading\PerlaScheduler.cs" />
+    <Compile Include="Threading\StackQueueEventArgs.cs" />
+    <Compile Include="Threading\PerlaPool.cs" />
+    <Compile Include="Threading\ThreadPoolPerlaScheduler.cs" />
+    <Compile Include="Time\TIME32.cs" />
+    <Compile Include="Time\TIME64.cs" />
+    <Compile Include="Time\TimesHelper.cs" />
+    <Compile Include="UnobservedPerlaExceptionEventArgs.cs" />
+    <Compile Include="Utilities\Exceptions.cs" />
+    <Compile Include="Utilities\Extensions.cs" />
+    <Compile Include="Utilities\Native.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Collections\ObjectModule\" />
+    <Folder Include="Collections\Specialized\" />
+    <Folder Include="Threading\Concurrent\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,18 @@
+C:\Users\POP\documents\visual studio 2010\Projects\FABSolution\TestProject\bin\Debug\TestProject.exe
+C:\Users\POP\documents\visual studio 2010\Projects\FABSolution\TestProject\bin\Debug\TestProject.pdb
+C:\Users\POP\documents\visual studio 2010\Projects\FABSolution\TestProject\obj\x86\Debug\TestProject.exe
+C:\Users\POP\documents\visual studio 2010\Projects\FABSolution\TestProject\obj\x86\Debug\TestProject.pdb
+C:\Users\POP\Documents\Visual Studio 2010\Projects\FABSolution\TestProject\obj\x86\Debug\TestProject.csprojResolveAssemblyReference.cache
+D:\Project\FABSolution\TestProject\bin\Debug\TestProject.exe
+D:\Project\FABSolution\TestProject\bin\Debug\TestProject.pdb
+D:\Project\FABSolution\TestProject\obj\x86\Debug\TestProject.csprojResolveAssemblyReference.cache
+D:\Project\FABSolution\TestProject\obj\x86\Debug\TestProject.exe
+D:\Project\FABSolution\TestProject\obj\x86\Debug\TestProject.pdb
+D:\Project\FABSolution\TestProject\bin\Debug\TestProject.exe.config
+D:\Project\FABSolution\TestProject\bin\Debug\CoreDataStore.dll
+D:\Project\FABSolution\TestProject\bin\Debug\CoreDataStore.pdb
+D:\Project\FABSolution\TestProject\bin\Debug\CoreThreading.dll
+D:\Project\FABSolution\TestProject\bin\Debug\CoreThreading.pdb
+D:\Work\FABSolution\TestProject\bin\Debug\TestProject.exe.config
+D:\Work\FABSolution\TestProject\obj\x86\Debug\TestProject.exe
+D:\Work\FABSolution\TestProject\obj\x86\Debug\TestProject.pdb

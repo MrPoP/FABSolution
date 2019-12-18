@@ -1,0 +1,5 @@
+D:\Project\FABSolution\CoreDataStore\bin\Debug\CoreDataStore.dll
+D:\Project\FABSolution\CoreDataStore\bin\Debug\CoreDataStore.pdb
+D:\Project\FABSolution\CoreDataStore\obj\Debug\CoreDataStore.dll
+D:\Project\FABSolution\CoreDataStore\obj\Debug\CoreDataStore.pdb
+D:\Project\FABSolution\CoreDataStore\obj\Debug\CoreDataStore.csprojResolveAssemblyReference.cache
